@@ -22,6 +22,7 @@ public class BlueNote : MonoBehaviour
             if (canPress)
             {
                 gameObject.SetActive(false);
+                GameManager.instance.HitNote();
             }
         }
     }

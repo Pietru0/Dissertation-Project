@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 3825583527560589524}
   - component: {fileID: 8214566932040608962}
-  - component: {fileID: 5697715419649949645}
   - component: {fileID: -6637520263496254962}
   - component: {fileID: 6194161282550431255}
   m_Layer: 0
@@ -29,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1846022162672559491}
   m_LocalRotation: {x: 0, y: 0, z: -0.7071068, w: 0.7071068}
   m_LocalPosition: {x: -3, y: 0, z: 0}
-  m_LocalScale: {x: 1.9612443, y: 0.4625, z: 1}
+  m_LocalScale: {x: 2, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -84,20 +83,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &5697715419649949645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1846022162672559491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9acf20bafe38c9f4f86f4fea91b33ecb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  BPM: 0
-  songStarted: 0
 --- !u!114 &-6637520263496254962
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,6 +95,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e81611281d8877479602772b82ab260, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canPress: 0
+  keyPress: 0
 --- !u!61 &6194161282550431255
 BoxCollider2D:
   m_ObjectHideFlags: 0

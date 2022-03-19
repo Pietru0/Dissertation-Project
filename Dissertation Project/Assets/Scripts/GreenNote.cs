@@ -22,6 +22,7 @@ public class GreenNote : MonoBehaviour
             if (canPress)
             {
                 gameObject.SetActive(false);
+                GameManager.instance.HitNote();
             }
         }
     }
@@ -43,6 +44,7 @@ public class GreenNote : MonoBehaviour
         if(other.tag == "greenNote")
         {
             canPress = false;
+            GameManager.instance.MissNote();
         }
     }
 }

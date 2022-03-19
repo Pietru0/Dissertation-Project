@@ -22,6 +22,7 @@ public class RedNote : MonoBehaviour
             if (canPress)
             {
                 gameObject.SetActive(false);
+                GameManager.instance.HitNote();
             }
         }
     }
@@ -43,6 +44,7 @@ public class RedNote : MonoBehaviour
         if(other.tag == "redNote")
         {
             canPress = false;
+            GameManager.instance.MissNote();
         }
     }
 }

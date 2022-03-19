@@ -20,10 +20,10 @@ public class NoteScroller : MonoBehaviour
     {
         if (!songStarted)
         {
-            if(Input.anyKeyDown)
+            /*if(Input.anyKeyDown)
             {
                 songStarted = true;
-            }
+            }*/
         }
 
         else
