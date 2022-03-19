@@ -41,7 +41,8 @@ public class RedNote : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other) 
     {
-        if(other.tag == "redNote")
+        //if gameobject is active
+        if(other.tag == "redNote" && gameObject.activeSelf)
         {
             canPress = false;
             GameManager.instance.MissNote();

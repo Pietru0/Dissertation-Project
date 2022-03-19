@@ -41,7 +41,8 @@ public class GreenNote : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other) 
     {
-        if(other.tag == "greenNote")
+        //if gameobject is active
+        if(other.tag == "greenNote" && gameObject.activeSelf)
         {
             canPress = false;
             GameManager.instance.MissNote();

@@ -41,9 +41,11 @@ public class BlueNote : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other) 
     {
-        if(other.tag == "blueNote")
+        //if gameobject is active
+        if(other.tag == "blueNote" && gameObject.activeSelf)
         {
             canPress = false;
+            GameManager.instance.MissNote();
         }
     }
 }
