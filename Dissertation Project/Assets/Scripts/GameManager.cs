@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,13 +14,16 @@ public class GameManager : MonoBehaviour
 
     public NoteScroller noteScroll;
 
+    public NoteCreator noteCreation;
+
     public static GameManager instance;
 
 [Header("Scoring")]
     
     public Text scoreText;
     public int scoreTotal;
-    public int scorePerNote = 100;
+    public int goodNote = 100;
+    public int perfectNote = 150;
 
 [Header("Score Multiplier")]
     public Text multiplierText;
@@ -48,6 +52,12 @@ public class GameManager : MonoBehaviour
                 startMusic = true;
                 noteScroll.songStarted = true;
                 music.PlayDelayed(2);
+
+                Scene scene = SceneManager.GetActiveScene();
+                if (scene.name == "Song1")
+                {
+                    noteCreation.Song1();
+                }
             }
         }
     }
@@ -72,9 +82,21 @@ public class GameManager : MonoBehaviour
 
         multiplierText.text = "Multiplier: x" + currentMultiplier;
 
-        scoreTotal += scorePerNote * currentMultiplier;
+        //scoreTotal += scorePerNote * currentMultiplier;
         scoreText.text = "Score: " + scoreTotal;
         //register the note as HIT and update the current score
+    }
+
+    public void GoodHit()
+    {
+        scoreTotal += goodNote * currentMultiplier;
+        HitNote();
+    }
+
+    public void PerfectHit()
+    {
+        scoreTotal += perfectNote * currentMultiplier;
+        HitNote();
     }
 
     public void MissNote()

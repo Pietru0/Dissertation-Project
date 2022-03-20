@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu Scenes/Learning.unity
     guid: 772c406de9992e5498b2704663a07ff7
+  - enabled: 1
+    path: Assets/Scenes/Song Scenes/Song1.unity
+    guid: 9ce0b0c539d4db24c91d451310e5e1b4
   m_configObjects: {}

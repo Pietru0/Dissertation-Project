@@ -4,9 +4,15 @@ using UnityEngine;
 
 public class RedNote : MonoBehaviour
 {
+[Header("Press")]
     public bool canPress;
 
     public KeyCode keyPress;
+
+[Header("Judgements")]
+    public GameObject goodJudge;
+    public GameObject perfectJudge;
+    public GameObject missJudge;
 
     // Start is called before the first frame update
     void Start()
@@ -22,7 +28,21 @@ public class RedNote : MonoBehaviour
             if (canPress)
             {
                 gameObject.SetActive(false);
-                GameManager.instance.HitNote();
+                //GameManager.instance.HitNote();
+
+                if (transform.position.x > -6.45 || transform.position.x < -6.85)
+                {
+                    Debug.Log("Good Hit");
+                    GameManager.instance.GoodHit();
+                    Instantiate(goodJudge, goodJudge.transform.position, goodJudge.transform.rotation);
+                }
+
+                else
+                {
+                    Debug.Log("Perfect Hit");
+                    GameManager.instance.PerfectHit();
+                    Instantiate(perfectJudge, perfectJudge.transform.position, perfectJudge.transform.rotation);
+                }
             }
         }
     }
@@ -46,6 +66,7 @@ public class RedNote : MonoBehaviour
         {
             canPress = false;
             GameManager.instance.MissNote();
+            Instantiate(missJudge, missJudge.transform.position, missJudge.transform.rotation);
         }
     }
 }

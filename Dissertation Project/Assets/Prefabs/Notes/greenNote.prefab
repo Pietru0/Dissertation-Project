@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8214566932040608962}
   - component: {fileID: -6637520263496254962}
   - component: {fileID: 6194161282550431255}
+  - component: {fileID: -6066669939361773641}
   m_Layer: 0
   m_Name: greenNote
   m_TagString: Untagged
@@ -96,7 +97,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canPress: 0
-  keyPress: 0
+  keyPress: 104
+  goodJudge: {fileID: 5640979890498766487, guid: 95b4d3dbeec2cba4e9e196d01e7fcd2e,
+    type: 3}
+  perfectJudge: {fileID: 2559947270177990656, guid: 50f309f53bfecfc4aa447b6d2ab9b963,
+    type: 3}
+  missJudge: {fileID: 3715907096747523455, guid: 9ad6c7d0fba5fe34b9a9fa24db59d308,
+    type: 3}
 --- !u!61 &6194161282550431255
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -123,3 +130,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5}
   m_EdgeRadius: 0
+--- !u!114 &-6066669939361773641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1846022162672559491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9acf20bafe38c9f4f86f4fea91b33ecb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BPM: 180.04
+  songStarted: 1
