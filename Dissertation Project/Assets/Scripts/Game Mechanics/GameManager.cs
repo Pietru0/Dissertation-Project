@@ -16,6 +16,12 @@ public class GameManager : MonoBehaviour
 
     public NoteCreator noteCreation;
 
+    [SerializeField] private Text comboText;
+
+    [SerializeField] private int combo = 0;
+
+    [SerializeField] private int maxCombo = 0;
+
     public static GameManager instance;
 
 [Header("Scoring")]
@@ -32,8 +38,8 @@ public class GameManager : MonoBehaviour
     public int[] multipliers;
 
 [Header("Results")]
-    [SerializeField] private string songName;
-    [SerializeField] private string authorName;
+    [SerializeField] private Text songName;
+    [SerializeField] private Text authorName;
     [SerializeField] private float totalNotes;
     [SerializeField] private float goodHits;
     [SerializeField] private float perfectHits;
@@ -64,7 +70,7 @@ public class GameManager : MonoBehaviour
                 noteScroll.songStarted = true;
                 music.PlayDelayed(2);
                 Scene scene = SceneManager.GetActiveScene();
-                if (scene.name == "Song1")
+                if (scene.name == "HappyRock-easy")
                 {
                     noteCreation.Song1();
                     
@@ -74,10 +80,8 @@ public class GameManager : MonoBehaviour
                     FindObjectsOfType<RedNote>().Length;
                     //count total amount of notes in the scene after they are instantiated
                     //this will be used to calculate a rough estimate of %
-
-                    songName = "Happy Rock";
-                    authorName = "Benjamin C.";
-                    //set name and author according to song
+                    songName.text = "Happy Rock";
+                    authorName.text = "Benjamin Tissot";
                 }
             }
         }
@@ -86,13 +90,16 @@ public class GameManager : MonoBehaviour
             {
                 if (!music.isPlaying && !resultsWindow.activeInHierarchy)
                 //if music is not playing and results window is not active in hierarchy
+                //display the result window
                 {
                     resultsWindow.SetActive(true);
+                    comboText.gameObject.SetActive(false);      
 
                     goodText.text = goodHits.ToString();
                     perfectText.text = perfectHits.ToString();
                     missText.text = missedHits.ToString();
                     finalScoreText.text = scoreTotal.ToString();
+                    maxComboText.text = maxCombo.ToString();
 
                     float totalHits = (perfectHits + (goodHits/1.5f));
                     //good hits are divided by 1.5 so that each good counts as 1.5 times less percentage
@@ -101,6 +108,7 @@ public class GameManager : MonoBehaviour
 
                     percentage.text = percentHit.ToString("F2") + "%";
 
+                    //ranking system
                     string rankValue = "F";
 
                     if (percentHit > 50)
@@ -156,6 +164,22 @@ public class GameManager : MonoBehaviour
         //scoreTotal += scorePerNote * currentMultiplier;
         scoreText.text = "Score: " + scoreTotal;
         //register the note as HIT and update the current score
+
+        combo++;
+        comboText.text = "Combo: " + combo.ToString();
+
+        if (combo > maxCombo)
+        {
+            maxCombo++;
+            maxCombo = combo;
+        }
+
+        else
+        {
+            maxCombo = maxCombo;
+        }
+
+        //if current combo ever exceeds the max combo, set the max combo equal to the current combo
     }
 
     public void GoodHit()
@@ -183,6 +207,9 @@ public class GameManager : MonoBehaviour
         multiplierText.text = "Multiplier: x" + currentMultiplier;
         //register the note as MISS and reset multipliers
 
+        combo = 0;
+        comboText.text = "Combo: " + combo.ToString();
+        //if missing a note, max combo won't be affected and combo will go back to 0
         missedHits++;
     }
 }
