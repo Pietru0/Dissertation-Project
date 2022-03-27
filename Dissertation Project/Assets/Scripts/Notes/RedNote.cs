@@ -30,7 +30,7 @@ public class RedNote : MonoBehaviour
                 gameObject.SetActive(false);
                 //GameManager.instance.HitNote();
 
-                if (transform.position.x > -6.45 || transform.position.x < -6.85)
+                if (transform.position.x > -6.05 || transform.position.x < -6.45)
                 {
                     Debug.Log("Good Hit");
                     GameManager.instance.GoodHit();
