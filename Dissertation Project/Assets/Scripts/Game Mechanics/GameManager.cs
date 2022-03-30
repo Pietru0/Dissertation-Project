@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
 [Header("Results")]
     [SerializeField] private Text songName;
     [SerializeField] private Text authorName;
-    [SerializeField] private float totalNotes;
+    public float totalNotes;
     [SerializeField] private float goodHits;
     [SerializeField] private float perfectHits;
     [SerializeField] private float missedHits;
@@ -67,12 +67,10 @@ public class GameManager : MonoBehaviour
             if(Input.anyKeyDown)
             {
                 startMusic = true;
-                music.PlayDelayed(2);
+                //music.PlayDelayed(2);
                 Scene scene = SceneManager.GetActiveScene();
                 if (scene.name == "HappyRock-easy")
-                {
-                    noteCreation.Song1();
-                    
+                {   
                     totalNotes = 
                     FindObjectsOfType<GreenNote>().Length+
                     FindObjectsOfType<BlueNote>().Length+
@@ -87,7 +85,7 @@ public class GameManager : MonoBehaviour
 
         else
             {
-                if (!music.isPlaying && !resultsWindow.activeInHierarchy)
+                if (!noteCreation.audioSource.isPlaying && !resultsWindow.activeInHierarchy)
                 //if music is not playing and results window is not active in hierarchy
                 //display the result window
                 {
