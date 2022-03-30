@@ -12,6 +12,1442 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 98635e571a7275745b086982d68be600, type: 3}
   m_Name: New Note Data
   m_EditorClassIdentifier: 
+  songName: 
+  songFile: {fileID: 8300000, guid: 887fc6efc209949478f7fc2dc37f42ff, type: 3}
+  BPM: 180.04
+  noteSequence: '1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    0000
+
+    0000
+
+    0000
+
+    0100'
   notes:
-  - color: 0
-    timeStamp: 0
+  - timeStamp: 0.33325928
+    color: 1
+  - timeStamp: 0.66651857
+    color: 0
+  - timeStamp: 0.99977785
+    color: 0
+  - timeStamp: 1.3330371
+    color: 0
+  - timeStamp: 1.6662965
+    color: 1
+  - timeStamp: 1.9995558
+    color: 0
+  - timeStamp: 2.3328152
+    color: 0
+  - timeStamp: 2.6660745
+    color: 0
+  - timeStamp: 2.9993339
+    color: 2
+  - timeStamp: 3.3325932
+    color: 0
+  - timeStamp: 3.6658525
+    color: 0
+  - timeStamp: 3.999112
+    color: 0
+  - timeStamp: 4.332371
+    color: 1
+  - timeStamp: 4.6656303
+    color: 0
+  - timeStamp: 4.9988894
+    color: 0
+  - timeStamp: 5.3321486
+    color: 0
+  - timeStamp: 5.6654077
+    color: 1
+  - timeStamp: 5.998667
+    color: 0
+  - timeStamp: 6.331926
+    color: 0
+  - timeStamp: 6.665185
+    color: 0
+  - timeStamp: 6.998444
+    color: 1
+  - timeStamp: 7.331703
+    color: 0
+  - timeStamp: 7.6649623
+    color: 0
+  - timeStamp: 7.9982214
+    color: 0
+  - timeStamp: 8.331481
+    color: 1
+  - timeStamp: 8.664741
+    color: 0
+  - timeStamp: 8.998
+    color: 0
+  - timeStamp: 9.33126
+    color: 0
+  - timeStamp: 9.664519
+    color: 2
+  - timeStamp: 9.997779
+    color: 0
+  - timeStamp: 10.331038
+    color: 0
+  - timeStamp: 10.664298
+    color: 0
+  - timeStamp: 10.997558
+    color: 1
+  - timeStamp: 11.330817
+    color: 0
+  - timeStamp: 11.664077
+    color: 0
+  - timeStamp: 11.997336
+    color: 0
+  - timeStamp: 12.330596
+    color: 2
+  - timeStamp: 12.663856
+    color: 0
+  - timeStamp: 12.997115
+    color: 0
+  - timeStamp: 13.330375
+    color: 0
+  - timeStamp: 13.663634
+    color: 1
+  - timeStamp: 13.996894
+    color: 0
+  - timeStamp: 14.330153
+    color: 0
+  - timeStamp: 14.663413
+    color: 0
+  - timeStamp: 14.996673
+    color: 2
+  - timeStamp: 15.329932
+    color: 0
+  - timeStamp: 15.663192
+    color: 0
+  - timeStamp: 15.996451
+    color: 0
+  - timeStamp: 16.32971
+    color: 1
+  - timeStamp: 16.66297
+    color: 0
+  - timeStamp: 16.99623
+    color: 0
+  - timeStamp: 17.329489
+    color: 0
+  - timeStamp: 17.662748
+    color: 2
+  - timeStamp: 17.996008
+    color: 0
+  - timeStamp: 18.329268
+    color: 0
+  - timeStamp: 18.662527
+    color: 0
+  - timeStamp: 18.995787
+    color: 1
+  - timeStamp: 19.329046
+    color: 0
+  - timeStamp: 19.662306
+    color: 0
+  - timeStamp: 19.995565
+    color: 0
+  - timeStamp: 20.328825
+    color: 2
+  - timeStamp: 20.662085
+    color: 0
+  - timeStamp: 20.995344
+    color: 0
+  - timeStamp: 21.328604
+    color: 0
+  - timeStamp: 21.661863
+    color: 1
+  - timeStamp: 21.995123
+    color: 0
+  - timeStamp: 22.328382
+    color: 0
+  - timeStamp: 22.661642
+    color: 0
+  - timeStamp: 22.994902
+    color: 1
+  - timeStamp: 23.328161
+    color: 0
+  - timeStamp: 23.66142
+    color: 0
+  - timeStamp: 23.99468
+    color: 0
+  - timeStamp: 24.32794
+    color: 1
+  - timeStamp: 24.6612
+    color: 0
+  - timeStamp: 24.99446
+    color: 0
+  - timeStamp: 25.327719
+    color: 0
+  - timeStamp: 25.660978
+    color: 1
+  - timeStamp: 25.994238
+    color: 0
+  - timeStamp: 26.327497
+    color: 0
+  - timeStamp: 26.660757
+    color: 0
+  - timeStamp: 26.994017
+    color: 1
+  - timeStamp: 27.327276
+    color: 0
+  - timeStamp: 27.660536
+    color: 0
+  - timeStamp: 27.993795
+    color: 0
+  - timeStamp: 28.327055
+    color: 1
+  - timeStamp: 28.660315
+    color: 0
+  - timeStamp: 28.993574
+    color: 0
+  - timeStamp: 29.326834
+    color: 0
+  - timeStamp: 29.660093
+    color: 1
+  - timeStamp: 29.993353
+    color: 0
+  - timeStamp: 30.326612
+    color: 0
+  - timeStamp: 30.659872
+    color: 0
+  - timeStamp: 30.993132
+    color: 1
+  - timeStamp: 31.326391
+    color: 0
+  - timeStamp: 31.65965
+    color: 0
+  - timeStamp: 31.99291
+    color: 0
+  - timeStamp: 32.326168
+    color: 1
+  - timeStamp: 32.659428
+    color: 0
+  - timeStamp: 32.992687
+    color: 0
+  - timeStamp: 33.325947
+    color: 0
+  - timeStamp: 33.659206
+    color: 1
+  - timeStamp: 33.992466
+    color: 0
+  - timeStamp: 34.325726
+    color: 0
+  - timeStamp: 34.658985
+    color: 0
+  - timeStamp: 34.992245
+    color: 1
+  - timeStamp: 35.325504
+    color: 0
+  - timeStamp: 35.658764
+    color: 0
+  - timeStamp: 35.992023
+    color: 0
+  - timeStamp: 36.325283
+    color: 1
+  - timeStamp: 36.658543
+    color: 0
+  - timeStamp: 36.991802
+    color: 0
+  - timeStamp: 37.32506
+    color: 0
+  - timeStamp: 37.65832
+    color: 1
+  - timeStamp: 37.99158
+    color: 0
+  - timeStamp: 38.32484
+    color: 0
+  - timeStamp: 38.6581
+    color: 0
+  - timeStamp: 38.99136
+    color: 1
+  - timeStamp: 39.32462
+    color: 0
+  - timeStamp: 39.65788
+    color: 0
+  - timeStamp: 39.99114
+    color: 0
+  - timeStamp: 40.324398
+    color: 1
+  - timeStamp: 40.657658
+    color: 0
+  - timeStamp: 40.990917
+    color: 0
+  - timeStamp: 41.324177
+    color: 0
+  - timeStamp: 41.657436
+    color: 1
+  - timeStamp: 41.990696
+    color: 0
+  - timeStamp: 42.323956
+    color: 0
+  - timeStamp: 42.657215
+    color: 0
+  - timeStamp: 42.990475
+    color: 2
+  - timeStamp: 43.323734
+    color: 0
+  - timeStamp: 43.656994
+    color: 0
+  - timeStamp: 43.990253
+    color: 0
+  - timeStamp: 44.323513
+    color: 1
+  - timeStamp: 44.656773
+    color: 0
+  - timeStamp: 44.990032
+    color: 0
+  - timeStamp: 45.32329
+    color: 0
+  - timeStamp: 45.65655
+    color: 1
+  - timeStamp: 45.98981
+    color: 0
+  - timeStamp: 46.32307
+    color: 0
+  - timeStamp: 46.65633
+    color: 0
+  - timeStamp: 46.98959
+    color: 1
+  - timeStamp: 47.32285
+    color: 0
+  - timeStamp: 47.65611
+    color: 0
+  - timeStamp: 47.98937
+    color: 0
+  - timeStamp: 48.322628
+    color: 1
+  - timeStamp: 48.655888
+    color: 0
+  - timeStamp: 48.989147
+    color: 0
+  - timeStamp: 49.322407
+    color: 0
+  - timeStamp: 49.655666
+    color: 1
+  - timeStamp: 49.988926
+    color: 0
+  - timeStamp: 50.322186
+    color: 0
+  - timeStamp: 50.655445
+    color: 0
+  - timeStamp: 50.988705
+    color: 1
+  - timeStamp: 51.321964
+    color: 0
+  - timeStamp: 51.655224
+    color: 0
+  - timeStamp: 51.988483
+    color: 0
+  - timeStamp: 52.321743
+    color: 1
+  - timeStamp: 52.655003
+    color: 0
+  - timeStamp: 52.988262
+    color: 0
+  - timeStamp: 53.32152
+    color: 0
+  - timeStamp: 53.65478
+    color: 1
+  - timeStamp: 53.98804
+    color: 0
+  - timeStamp: 54.3213
+    color: 0
+  - timeStamp: 54.65456
+    color: 0
+  - timeStamp: 54.98782
+    color: 1
+  - timeStamp: 55.32108
+    color: 0
+  - timeStamp: 55.65434
+    color: 0
+  - timeStamp: 55.9876
+    color: 0
+  - timeStamp: 56.320858
+    color: 1
+  - timeStamp: 56.654118
+    color: 0
+  - timeStamp: 56.987377
+    color: 0
+  - timeStamp: 57.320637
+    color: 0
+  - timeStamp: 57.653896
+    color: 1
+  - timeStamp: 57.987156
+    color: 0
+  - timeStamp: 58.320415
+    color: 0
+  - timeStamp: 58.653675
+    color: 0
+  - timeStamp: 58.986935
+    color: 2
+  - timeStamp: 59.320194
+    color: 0
+  - timeStamp: 59.653454
+    color: 0
+  - timeStamp: 59.986713
+    color: 0
+  - timeStamp: 60.319973
+    color: 1
+  - timeStamp: 60.653233
+    color: 0
+  - timeStamp: 60.986492
+    color: 0
+  - timeStamp: 61.31975
+    color: 0
+  - timeStamp: 61.65301
+    color: 2
+  - timeStamp: 61.98627
+    color: 0
+  - timeStamp: 62.31953
+    color: 0
+  - timeStamp: 62.65279
+    color: 0
+  - timeStamp: 62.98605
+    color: 1
+  - timeStamp: 63.31931
+    color: 0
+  - timeStamp: 63.65257
+    color: 0
+  - timeStamp: 63.98583
+    color: 0
+  - timeStamp: 64.319084
+    color: 2
+  - timeStamp: 64.65234
+    color: 0
+  - timeStamp: 64.9856
+    color: 0
+  - timeStamp: 65.31886
+    color: 0
+  - timeStamp: 65.65212
+    color: 1
+  - timeStamp: 65.98538
+    color: 0
+  - timeStamp: 66.31864
+    color: 0
+  - timeStamp: 66.6519
+    color: 0
+  - timeStamp: 66.98516
+    color: 2
+  - timeStamp: 67.31842
+    color: 0
+  - timeStamp: 67.65168
+    color: 0
+  - timeStamp: 67.98494
+    color: 0
+  - timeStamp: 68.3182
+    color: 1
+  - timeStamp: 68.65146
+    color: 0
+  - timeStamp: 68.98472
+    color: 0
+  - timeStamp: 69.31798
+    color: 0
+  - timeStamp: 69.65124
+    color: 1
+  - timeStamp: 69.9845
+    color: 0
+  - timeStamp: 70.31776
+    color: 0
+  - timeStamp: 70.65102
+    color: 0
+  - timeStamp: 70.984276
+    color: 2
+  - timeStamp: 71.317535
+    color: 0
+  - timeStamp: 71.650795
+    color: 0
+  - timeStamp: 71.984055
+    color: 0
+  - timeStamp: 72.317314
+    color: 1
+  - timeStamp: 72.65057
+    color: 0
+  - timeStamp: 72.98383
+    color: 0
+  - timeStamp: 73.31709
+    color: 0
+  - timeStamp: 73.65035
+    color: 1
+  - timeStamp: 73.98361
+    color: 0
+  - timeStamp: 74.31687
+    color: 0
+  - timeStamp: 74.65013
+    color: 0
+  - timeStamp: 74.98339
+    color: 1
+  - timeStamp: 75.31665
+    color: 0
+  - timeStamp: 75.64991
+    color: 0
+  - timeStamp: 75.98317
+    color: 0
+  - timeStamp: 76.31643
+    color: 2
+  - timeStamp: 76.64969
+    color: 0
+  - timeStamp: 76.98295
+    color: 0
+  - timeStamp: 77.31621
+    color: 0
+  - timeStamp: 77.64947
+    color: 1
+  - timeStamp: 77.98273
+    color: 0
+  - timeStamp: 78.31599
+    color: 0
+  - timeStamp: 78.64925
+    color: 0
+  - timeStamp: 78.982506
+    color: 2
+  - timeStamp: 79.315765
+    color: 0
+  - timeStamp: 79.649025
+    color: 0
+  - timeStamp: 79.982285
+    color: 0
+  - timeStamp: 80.315544
+    color: 1
+  - timeStamp: 80.6488
+    color: 0
+  - timeStamp: 80.98206
+    color: 0
+  - timeStamp: 81.31532
+    color: 0
+  - timeStamp: 81.64858
+    color: 2
+  - timeStamp: 81.98184
+    color: 0
+  - timeStamp: 82.3151
+    color: 0
+  - timeStamp: 82.64836
+    color: 0
+  - timeStamp: 82.98162
+    color: 1
+  - timeStamp: 83.31488
+    color: 0
+  - timeStamp: 83.64814
+    color: 0
+  - timeStamp: 83.9814
+    color: 0
+  - timeStamp: 84.31466
+    color: 1
+  - timeStamp: 84.64792
+    color: 0
+  - timeStamp: 84.98118
+    color: 0
+  - timeStamp: 85.31444
+    color: 0
+  - timeStamp: 85.6477
+    color: 1
+  - timeStamp: 85.98096
+    color: 0
+  - timeStamp: 86.31422
+    color: 0
+  - timeStamp: 86.64748
+    color: 0
+  - timeStamp: 86.980736
+    color: 1
+  - timeStamp: 87.313995
+    color: 0
+  - timeStamp: 87.647255
+    color: 0
+  - timeStamp: 87.980515
+    color: 0
+  - timeStamp: 88.313774
+    color: 1
+  - timeStamp: 88.64703
+    color: 0
+  - timeStamp: 88.98029
+    color: 0
+  - timeStamp: 89.31355
+    color: 0
+  - timeStamp: 89.64681
+    color: 1
+  - timeStamp: 89.98007
+    color: 0
+  - timeStamp: 90.31333
+    color: 0
+  - timeStamp: 90.64659
+    color: 0
+  - timeStamp: 90.97985
+    color: 1
+  - timeStamp: 91.31311
+    color: 0
+  - timeStamp: 91.64637
+    color: 0
+  - timeStamp: 91.97963
+    color: 0
+  - timeStamp: 92.31289
+    color: 1
+  - timeStamp: 92.64615
+    color: 0
+  - timeStamp: 92.97941
+    color: 0
+  - timeStamp: 93.31267
+    color: 0
+  - timeStamp: 93.64593
+    color: 1
+  - timeStamp: 93.97919
+    color: 0
+  - timeStamp: 94.31245
+    color: 0
+  - timeStamp: 94.645706
+    color: 0
+  - timeStamp: 94.978966
+    color: 1
+  - timeStamp: 95.312225
+    color: 0
+  - timeStamp: 95.645485
+    color: 0
+  - timeStamp: 95.978745
+    color: 0
+  - timeStamp: 96.312004
+    color: 1
+  - timeStamp: 96.64526
+    color: 0
+  - timeStamp: 96.97852
+    color: 0
+  - timeStamp: 97.31178
+    color: 0
+  - timeStamp: 97.64504
+    color: 1
+  - timeStamp: 97.9783
+    color: 0
+  - timeStamp: 98.31156
+    color: 0
+  - timeStamp: 98.64482
+    color: 0
+  - timeStamp: 98.97808
+    color: 1
+  - timeStamp: 99.31134
+    color: 0
+  - timeStamp: 99.6446
+    color: 0
+  - timeStamp: 99.97786
+    color: 0
+  - timeStamp: 100.31112
+    color: 1
+  - timeStamp: 100.64438
+    color: 0
+  - timeStamp: 100.97764
+    color: 0
+  - timeStamp: 101.3109
+    color: 0
+  - timeStamp: 101.64416
+    color: 1
+  - timeStamp: 101.97742
+    color: 0
+  - timeStamp: 102.31068
+    color: 0
+  - timeStamp: 102.643936
+    color: 0
+  - timeStamp: 102.977196
+    color: 2
+  - timeStamp: 103.310455
+    color: 0
+  - timeStamp: 103.643715
+    color: 0
+  - timeStamp: 103.976974
+    color: 0
+  - timeStamp: 104.310234
+    color: 1
+  - timeStamp: 104.64349
+    color: 0
+  - timeStamp: 104.97675
+    color: 0
+  - timeStamp: 105.31001
+    color: 0
+  - timeStamp: 105.64327
+    color: 0
+  - timeStamp: 105.97653
+    color: 0
+  - timeStamp: 106.30979
+    color: 0
+  - timeStamp: 106.64305
+    color: 2

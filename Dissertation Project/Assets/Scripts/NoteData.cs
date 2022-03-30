@@ -15,11 +15,23 @@ public class NoteData : ScriptableObject
     [System.Serializable]
     public struct NoteInfo
     {
-        public NoteColor color;
         public float timeStamp;
+        public NoteColor color;
     }
 
+    public string songName;
+
+    public AudioClip songFile;
+
+    [Header("Setup")]
+    public float BPM;
+
+    [TextArea(3, 100)]
+    public string noteSequence;
+
     public NoteInfo[] notes;
+
+    public int NoteCount => notes.Length;
 
     public NoteInfo GetNote(int index)
     {

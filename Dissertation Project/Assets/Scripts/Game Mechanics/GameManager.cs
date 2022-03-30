@@ -67,7 +67,6 @@ public class GameManager : MonoBehaviour
             if(Input.anyKeyDown)
             {
                 startMusic = true;
-                noteScroll.songStarted = true;
                 music.PlayDelayed(2);
                 Scene scene = SceneManager.GetActiveScene();
                 if (scene.name == "HappyRock-easy")
