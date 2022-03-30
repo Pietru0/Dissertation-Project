@@ -25,16 +25,6 @@ MonoBehaviour:
 
     ,
 
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
     0100
 
     0000
@@ -45,37 +35,17 @@ MonoBehaviour:
 
     ,
 
-    1000
+    0010
 
     0000
 
     0000
 
-    0000
+    0100
 
     ,
 
-    1000
-
     0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
 
     0000
 
@@ -115,17 +85,7 @@ MonoBehaviour:
 
     ,
 
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    0100
+    0010
 
     0000
 
@@ -155,387 +115,7 @@ MonoBehaviour:
 
     ,
 
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    0100
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    0100
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    0100
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    0100
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    0100
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    0100
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
+    0010
 
     0000
 
@@ -595,16 +175,6 @@ MonoBehaviour:
 
     ,
 
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
     0100
 
     0000
@@ -615,7 +185,17 @@ MonoBehaviour:
 
     ,
 
-    1000
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
 
     0000
 
@@ -626,136 +206,6 @@ MonoBehaviour:
     ,
 
     0100
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
-
-    0000
-
-    0000
-
-    0000
-
-    ,
-
-    1000
 
     0000
 
@@ -803,13 +253,563 @@ MonoBehaviour:
 
     0000
 
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0010
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    0100
+
+    0000
+
+    0000
+
+    0000
+
+    ,
+
+    1000
+
+    0000
+
+    0000
+
     0000
 
     0000
 
     0000
 
-    0100'
+    0000
+
+    0010'
   notes:
   - timeStamp: 0.33325928
     color: 1
@@ -820,7 +820,7 @@ MonoBehaviour:
   - timeStamp: 1.3330371
     color: 0
   - timeStamp: 1.6662965
-    color: 1
+    color: 2
   - timeStamp: 1.9995558
     color: 0
   - timeStamp: 2.3328152
@@ -828,15 +828,15 @@ MonoBehaviour:
   - timeStamp: 2.6660745
     color: 0
   - timeStamp: 2.9993339
-    color: 2
+    color: 0
   - timeStamp: 3.3325932
     color: 0
   - timeStamp: 3.6658525
     color: 0
   - timeStamp: 3.999112
-    color: 0
+    color: 2
   - timeStamp: 4.332371
-    color: 1
+    color: 0
   - timeStamp: 4.6656303
     color: 0
   - timeStamp: 4.9988894
@@ -844,7 +844,7 @@ MonoBehaviour:
   - timeStamp: 5.3321486
     color: 0
   - timeStamp: 5.6654077
-    color: 1
+    color: 2
   - timeStamp: 5.998667
     color: 0
   - timeStamp: 6.331926
@@ -860,7 +860,7 @@ MonoBehaviour:
   - timeStamp: 7.9982214
     color: 0
   - timeStamp: 8.331481
-    color: 1
+    color: 2
   - timeStamp: 8.664741
     color: 0
   - timeStamp: 8.998
@@ -868,7 +868,7 @@ MonoBehaviour:
   - timeStamp: 9.33126
     color: 0
   - timeStamp: 9.664519
-    color: 2
+    color: 1
   - timeStamp: 9.997779
     color: 0
   - timeStamp: 10.331038
@@ -916,7 +916,7 @@ MonoBehaviour:
   - timeStamp: 17.329489
     color: 0
   - timeStamp: 17.662748
-    color: 2
+    color: 1
   - timeStamp: 17.996008
     color: 0
   - timeStamp: 18.329268
@@ -940,7 +940,7 @@ MonoBehaviour:
   - timeStamp: 21.328604
     color: 0
   - timeStamp: 21.661863
-    color: 1
+    color: 2
   - timeStamp: 21.995123
     color: 0
   - timeStamp: 22.328382
@@ -956,7 +956,7 @@ MonoBehaviour:
   - timeStamp: 23.99468
     color: 0
   - timeStamp: 24.32794
-    color: 1
+    color: 0
   - timeStamp: 24.6612
     color: 0
   - timeStamp: 24.99446
@@ -964,7 +964,7 @@ MonoBehaviour:
   - timeStamp: 25.327719
     color: 0
   - timeStamp: 25.660978
-    color: 1
+    color: 2
   - timeStamp: 25.994238
     color: 0
   - timeStamp: 26.327497
@@ -988,7 +988,7 @@ MonoBehaviour:
   - timeStamp: 29.326834
     color: 0
   - timeStamp: 29.660093
-    color: 1
+    color: 2
   - timeStamp: 29.993353
     color: 0
   - timeStamp: 30.326612
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   - timeStamp: 31.99291
     color: 0
   - timeStamp: 32.326168
-    color: 1
+    color: 2
   - timeStamp: 32.659428
     color: 0
   - timeStamp: 32.992687
@@ -1012,7 +1012,7 @@ MonoBehaviour:
   - timeStamp: 33.325947
     color: 0
   - timeStamp: 33.659206
-    color: 1
+    color: 2
   - timeStamp: 33.992466
     color: 0
   - timeStamp: 34.325726
@@ -1020,7 +1020,7 @@ MonoBehaviour:
   - timeStamp: 34.658985
     color: 0
   - timeStamp: 34.992245
-    color: 1
+    color: 2
   - timeStamp: 35.325504
     color: 0
   - timeStamp: 35.658764
@@ -1044,7 +1044,7 @@ MonoBehaviour:
   - timeStamp: 38.6581
     color: 0
   - timeStamp: 38.99136
-    color: 1
+    color: 2
   - timeStamp: 39.32462
     color: 0
   - timeStamp: 39.65788
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   - timeStamp: 39.99114
     color: 0
   - timeStamp: 40.324398
-    color: 1
+    color: 2
   - timeStamp: 40.657658
     color: 0
   - timeStamp: 40.990917
@@ -1076,7 +1076,7 @@ MonoBehaviour:
   - timeStamp: 43.990253
     color: 0
   - timeStamp: 44.323513
-    color: 1
+    color: 2
   - timeStamp: 44.656773
     color: 0
   - timeStamp: 44.990032
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   - timeStamp: 45.32329
     color: 0
   - timeStamp: 45.65655
-    color: 1
+    color: 2
   - timeStamp: 45.98981
     color: 0
   - timeStamp: 46.32307
@@ -1100,7 +1100,7 @@ MonoBehaviour:
   - timeStamp: 47.98937
     color: 0
   - timeStamp: 48.322628
-    color: 1
+    color: 2
   - timeStamp: 48.655888
     color: 0
   - timeStamp: 48.989147
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   - timeStamp: 50.655445
     color: 0
   - timeStamp: 50.988705
-    color: 1
+    color: 0
   - timeStamp: 51.321964
     color: 0
   - timeStamp: 51.655224
@@ -1124,7 +1124,7 @@ MonoBehaviour:
   - timeStamp: 51.988483
     color: 0
   - timeStamp: 52.321743
-    color: 1
+    color: 2
   - timeStamp: 52.655003
     color: 0
   - timeStamp: 52.988262
@@ -1140,7 +1140,7 @@ MonoBehaviour:
   - timeStamp: 54.65456
     color: 0
   - timeStamp: 54.98782
-    color: 1
+    color: 2
   - timeStamp: 55.32108
     color: 0
   - timeStamp: 55.65434
@@ -1148,7 +1148,7 @@ MonoBehaviour:
   - timeStamp: 55.9876
     color: 0
   - timeStamp: 56.320858
-    color: 1
+    color: 2
   - timeStamp: 56.654118
     color: 0
   - timeStamp: 56.987377
@@ -1164,7 +1164,7 @@ MonoBehaviour:
   - timeStamp: 58.653675
     color: 0
   - timeStamp: 58.986935
-    color: 2
+    color: 0
   - timeStamp: 59.320194
     color: 0
   - timeStamp: 59.653454
@@ -1180,7 +1180,7 @@ MonoBehaviour:
   - timeStamp: 61.31975
     color: 0
   - timeStamp: 61.65301
-    color: 2
+    color: 1
   - timeStamp: 61.98627
     color: 0
   - timeStamp: 62.31953
@@ -1204,7 +1204,7 @@ MonoBehaviour:
   - timeStamp: 65.31886
     color: 0
   - timeStamp: 65.65212
-    color: 1
+    color: 2
   - timeStamp: 65.98538
     color: 0
   - timeStamp: 66.31864
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   - timeStamp: 67.98494
     color: 0
   - timeStamp: 68.3182
-    color: 1
+    color: 0
   - timeStamp: 68.65146
     color: 0
   - timeStamp: 68.98472
@@ -1236,7 +1236,7 @@ MonoBehaviour:
   - timeStamp: 70.65102
     color: 0
   - timeStamp: 70.984276
-    color: 2
+    color: 1
   - timeStamp: 71.317535
     color: 0
   - timeStamp: 71.650795
@@ -1244,7 +1244,7 @@ MonoBehaviour:
   - timeStamp: 71.984055
     color: 0
   - timeStamp: 72.317314
-    color: 1
+    color: 2
   - timeStamp: 72.65057
     color: 0
   - timeStamp: 72.98383
@@ -1252,7 +1252,7 @@ MonoBehaviour:
   - timeStamp: 73.31709
     color: 0
   - timeStamp: 73.65035
-    color: 1
+    color: 2
   - timeStamp: 73.98361
     color: 0
   - timeStamp: 74.31687
@@ -1284,7 +1284,7 @@ MonoBehaviour:
   - timeStamp: 78.64925
     color: 0
   - timeStamp: 78.982506
-    color: 2
+    color: 1
   - timeStamp: 79.315765
     color: 0
   - timeStamp: 79.649025
@@ -1300,7 +1300,7 @@ MonoBehaviour:
   - timeStamp: 81.31532
     color: 0
   - timeStamp: 81.64858
-    color: 2
+    color: 1
   - timeStamp: 81.98184
     color: 0
   - timeStamp: 82.3151
@@ -1308,7 +1308,7 @@ MonoBehaviour:
   - timeStamp: 82.64836
     color: 0
   - timeStamp: 82.98162
-    color: 1
+    color: 2
   - timeStamp: 83.31488
     color: 0
   - timeStamp: 83.64814
@@ -1316,7 +1316,7 @@ MonoBehaviour:
   - timeStamp: 83.9814
     color: 0
   - timeStamp: 84.31466
-    color: 1
+    color: 0
   - timeStamp: 84.64792
     color: 0
   - timeStamp: 84.98118
@@ -1324,7 +1324,7 @@ MonoBehaviour:
   - timeStamp: 85.31444
     color: 0
   - timeStamp: 85.6477
-    color: 1
+    color: 2
   - timeStamp: 85.98096
     color: 0
   - timeStamp: 86.31422
@@ -1348,7 +1348,7 @@ MonoBehaviour:
   - timeStamp: 89.31355
     color: 0
   - timeStamp: 89.64681
-    color: 1
+    color: 0
   - timeStamp: 89.98007
     color: 0
   - timeStamp: 90.31333
@@ -1364,7 +1364,7 @@ MonoBehaviour:
   - timeStamp: 91.97963
     color: 0
   - timeStamp: 92.31289
-    color: 1
+    color: 2
   - timeStamp: 92.64615
     color: 0
   - timeStamp: 92.97941
@@ -1372,7 +1372,7 @@ MonoBehaviour:
   - timeStamp: 93.31267
     color: 0
   - timeStamp: 93.64593
-    color: 1
+    color: 0
   - timeStamp: 93.97919
     color: 0
   - timeStamp: 94.31245
@@ -1388,7 +1388,7 @@ MonoBehaviour:
   - timeStamp: 95.978745
     color: 0
   - timeStamp: 96.312004
-    color: 1
+    color: 2
   - timeStamp: 96.64526
     color: 0
   - timeStamp: 96.97852
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   - timeStamp: 97.31178
     color: 0
   - timeStamp: 97.64504
-    color: 1
+    color: 2
   - timeStamp: 97.9783
     color: 0
   - timeStamp: 98.31156
@@ -1412,7 +1412,7 @@ MonoBehaviour:
   - timeStamp: 99.97786
     color: 0
   - timeStamp: 100.31112
-    color: 1
+    color: 2
   - timeStamp: 100.64438
     color: 0
   - timeStamp: 100.97764
@@ -1450,4 +1450,4 @@ MonoBehaviour:
   - timeStamp: 106.30979
     color: 0
   - timeStamp: 106.64305
-    color: 2
+    color: 1

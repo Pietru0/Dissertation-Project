@@ -27,7 +27,7 @@ public class NoteCreator : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = noteData.songFile;
-        audioSource.PlayDelayed(5);
+        audioSource.PlayDelayed(5.5f);
 
         lookAhead = (spawnOnX - redTarget.position.x) / travelSpeed;
         nextNote = noteData.GetNote(noteIndex);

@@ -30,7 +30,7 @@ public class GreenNote : MonoBehaviour
                 gameObject.SetActive(false);
                 //< = less || > = greater
 
-                if (transform.position.x > -6.05 || transform.position.x < -6.45)
+                if (transform.position.x > -5.96 || transform.position.x < -6.54)
                 {
                     Debug.Log("Good Hit");
                     GameManager.instance.GoodHit();
