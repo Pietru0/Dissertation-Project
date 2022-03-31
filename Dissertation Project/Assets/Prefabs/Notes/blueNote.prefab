@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1799047844979106907}
   - component: {fileID: -8764949965131186111}
   - component: {fileID: 8604110687560085831}
+  - component: {fileID: -1753719558215857865}
   m_Layer: 0
   m_Name: blueNote
   m_TagString: blueNote
@@ -98,6 +99,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canPress: 0
   keyPress: 104
+  keyPress2: 0
   goodJudge: {fileID: 5640979890498766487, guid: 95b4d3dbeec2cba4e9e196d01e7fcd2e,
     type: 3}
   perfectJudge: {fileID: 2559947270177990656, guid: 50f309f53bfecfc4aa447b6d2ab9b963,
@@ -142,8 +144,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf20bafe38c9f4f86f4fea91b33ecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BPM: 180.04
-  songStarted: 1
-  songTimer: 0
-  startPos: 0
-  markerPos: {fileID: 0}
+--- !u!114 &-1753719558215857865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644418938600117761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0caa17890b3637145885fc0bf2fc3c30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  canPress: 0
+  keyPress: 104
+  keyPress2: 106
+  goodJudge: {fileID: 5640979890498766487, guid: 95b4d3dbeec2cba4e9e196d01e7fcd2e,
+    type: 3}
+  perfectJudge: {fileID: 2559947270177990656, guid: 50f309f53bfecfc4aa447b6d2ab9b963,
+    type: 3}
+  missJudge: {fileID: 3715907096747523455, guid: 9ad6c7d0fba5fe34b9a9fa24db59d308,
+    type: 3}

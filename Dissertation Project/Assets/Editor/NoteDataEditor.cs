@@ -22,6 +22,8 @@ public class NoteDataEditor : Editor
             foreach (string note in allNotes)
             {
                 if (note.Trim() == ",") continue;
+                currentTime += x;
+                if (note.Trim() == "0000") continue;
                 NoteData.NoteColor colorToAdd = NoteData.NoteColor.Red;
                 if (note.Trim() == "1000")
                 {
@@ -36,10 +38,7 @@ public class NoteDataEditor : Editor
                     colorToAdd = (NoteData.NoteColor) Random.Range(0, 3);
                 }
 
-                //issue found: every "0000" is counting as red, try and solve this
-
-
-                currentTime += x;
+                
                 notes.Add(new NoteData.NoteInfo(){
                     color = colorToAdd,
                     timeStamp = currentTime
