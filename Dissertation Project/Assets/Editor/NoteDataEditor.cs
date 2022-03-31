@@ -35,8 +35,9 @@ public class NoteDataEditor : Editor
                 {
                     colorToAdd = (NoteData.NoteColor) Random.Range(0, 3);
                 }
-                
-                
+
+                //issue found: every "0000" is counting as red, try and solve this
+
 
                 currentTime += x;
                 notes.Add(new NoteData.NoteInfo(){

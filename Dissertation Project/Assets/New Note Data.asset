@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 98635e571a7275745b086982d68be600, type: 3}
-  m_Name: HappyRockEZ
+  m_Name: New Note Data
   m_EditorClassIdentifier: 
   songName: Happy Rock
   songFile: {fileID: 8300000, guid: 887fc6efc209949478f7fc2dc37f42ff, type: 3}
@@ -828,7 +828,7 @@ MonoBehaviour:
   - timeStamp: 2.6660745
     color: 0
   - timeStamp: 2.9993339
-    color: 0
+    color: 2
   - timeStamp: 3.3325932
     color: 0
   - timeStamp: 3.6658525
@@ -892,7 +892,7 @@ MonoBehaviour:
   - timeStamp: 13.330375
     color: 0
   - timeStamp: 13.663634
-    color: 1
+    color: 2
   - timeStamp: 13.996894
     color: 0
   - timeStamp: 14.330153
@@ -948,7 +948,7 @@ MonoBehaviour:
   - timeStamp: 22.661642
     color: 0
   - timeStamp: 22.994902
-    color: 1
+    color: 0
   - timeStamp: 23.328161
     color: 0
   - timeStamp: 23.66142
@@ -1052,7 +1052,7 @@ MonoBehaviour:
   - timeStamp: 39.99114
     color: 0
   - timeStamp: 40.324398
-    color: 2
+    color: 1
   - timeStamp: 40.657658
     color: 0
   - timeStamp: 40.990917
@@ -1084,7 +1084,7 @@ MonoBehaviour:
   - timeStamp: 45.32329
     color: 0
   - timeStamp: 45.65655
-    color: 2
+    color: 1
   - timeStamp: 45.98981
     color: 0
   - timeStamp: 46.32307
@@ -1116,7 +1116,7 @@ MonoBehaviour:
   - timeStamp: 50.655445
     color: 0
   - timeStamp: 50.988705
-    color: 0
+    color: 1
   - timeStamp: 51.321964
     color: 0
   - timeStamp: 51.655224
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   - timeStamp: 59.986713
     color: 0
   - timeStamp: 60.319973
-    color: 1
+    color: 2
   - timeStamp: 60.653233
     color: 0
   - timeStamp: 60.986492
@@ -1212,7 +1212,7 @@ MonoBehaviour:
   - timeStamp: 66.6519
     color: 0
   - timeStamp: 66.98516
-    color: 2
+    color: 1
   - timeStamp: 67.31842
     color: 0
   - timeStamp: 67.65168
@@ -1220,7 +1220,7 @@ MonoBehaviour:
   - timeStamp: 67.98494
     color: 0
   - timeStamp: 68.3182
-    color: 0
+    color: 2
   - timeStamp: 68.65146
     color: 0
   - timeStamp: 68.98472
@@ -1260,7 +1260,7 @@ MonoBehaviour:
   - timeStamp: 74.65013
     color: 0
   - timeStamp: 74.98339
-    color: 1
+    color: 2
   - timeStamp: 75.31665
     color: 0
   - timeStamp: 75.64991
@@ -1268,7 +1268,7 @@ MonoBehaviour:
   - timeStamp: 75.98317
     color: 0
   - timeStamp: 76.31643
-    color: 2
+    color: 0
   - timeStamp: 76.64969
     color: 0
   - timeStamp: 76.98295
@@ -1348,7 +1348,7 @@ MonoBehaviour:
   - timeStamp: 89.31355
     color: 0
   - timeStamp: 89.64681
-    color: 0
+    color: 2
   - timeStamp: 89.98007
     color: 0
   - timeStamp: 90.31333
@@ -1396,7 +1396,7 @@ MonoBehaviour:
   - timeStamp: 97.31178
     color: 0
   - timeStamp: 97.64504
-    color: 2
+    color: 0
   - timeStamp: 97.9783
     color: 0
   - timeStamp: 98.31156
@@ -1420,7 +1420,7 @@ MonoBehaviour:
   - timeStamp: 101.3109
     color: 0
   - timeStamp: 101.64416
-    color: 1
+    color: 0
   - timeStamp: 101.97742
     color: 0
   - timeStamp: 102.31068
