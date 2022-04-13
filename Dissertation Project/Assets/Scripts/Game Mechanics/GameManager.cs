@@ -67,74 +67,19 @@ public class GameManager : MonoBehaviour
             if(Input.anyKeyDown)
             {
                 startMusic = true;
-                //music.PlayDelayed(2);
-                Scene scene = SceneManager.GetActiveScene();
-                if (scene.name == "HappyRock-easy")
-                {   
-                    totalNotes = 
-                    FindObjectsOfType<GreenNote>().Length+
-                    FindObjectsOfType<BlueNote>().Length+
-                    FindObjectsOfType<RedNote>().Length;
-                    //count total amount of notes in the scene after they are instantiated
-                    //this will be used to calculate a rough estimate of %
-                    songName.text = "Happy Rock";
-                    authorName.text = "Benjamin Tissot";
-                }
+                  
+                totalNotes = 
+                FindObjectsOfType<GreenNote>().Length+
+                FindObjectsOfType<BlueNote>().Length+
+                FindObjectsOfType<RedNote>().Length;
+                //count total amount of notes in the scene after they are instantiated
+                //this will be used to calculate a rough estimate of %  
             }
         }
 
         else
             {
-                if (!noteCreation.audioSource.isPlaying && !resultsWindow.activeInHierarchy)
-                //if music is not playing and results window is not active in hierarchy
-                //display the result window
-                {
-                    resultsWindow.SetActive(true);
-                    comboText.gameObject.SetActive(false);      
-
-                    goodText.text = goodHits.ToString();
-                    perfectText.text = perfectHits.ToString();
-                    missText.text = missedHits.ToString();
-                    finalScoreText.text = scoreTotal.ToString();
-                    maxComboText.text = maxCombo.ToString();
-
-                    float totalHits = (perfectHits + (goodHits/1.5f));
-                    //good hits are divided by 1.5 so that each good counts as 1.5 times less percentage
-                    //than a perfect hit would
-                    float percentHit = (totalHits / totalNotes) * 100f;
-
-                    percentage.text = percentHit.ToString("F2") + "%";
-
-                    //ranking system
-                    string rankValue = "F";
-
-                    if (percentHit > 50)
-                    {
-                        rankValue = "D";
-
-                        if (percentHit > 60)
-                        {
-                            rankValue = "C";
-
-                            if (percentHit > 70)
-                            {
-                                rankValue = "B";
-
-                                if (percentHit > 85)
-                                {
-                                    rankValue = "A";
-
-                                    if (percentHit > 95)
-                                    {
-                                        rankValue = "S";
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    rankText.text = rankValue;
-                    
-                }
+                StartCoroutine(openResultsWindow());
             }
     }
 
@@ -208,5 +153,95 @@ public class GameManager : MonoBehaviour
         comboText.text = combo.ToString();
         //if missing a note, max combo won't be affected and combo will go back to 0
         missedHits++;
+    }
+
+    IEnumerator openResultsWindow()
+    {
+        while (noteCreation.audioSource.isPlaying)
+        {
+            yield return null;
+        }
+        yield return new WaitForSeconds(1f);
+        resultsWindow.SetActive(true);
+        comboText.gameObject.SetActive(false);      
+
+        songName.text = "Happy Rock";
+        authorName.text = "Benjamin Tissot";
+
+        goodText.text = goodHits.ToString();
+        perfectText.text = perfectHits.ToString();
+        missText.text = missedHits.ToString();
+        finalScoreText.text = scoreTotal.ToString();
+        maxComboText.text = maxCombo.ToString();
+        
+
+        float totalHits = (perfectHits + (goodHits/1.5f));
+        //good hits are divided by 1.5 so that each good counts as 1.5 times less percentage
+        //than a perfect hit would
+        float percentHit = (totalHits / totalNotes) * 100f;
+
+        percentage.text = percentHit.ToString("F2") + "%";
+
+        //ranking system
+
+        string rankValue = "F";
+
+        if (percentHit < 60)
+        {
+            rankValue = "D";
+        }
+
+        else if (percentHit < 70)
+        {
+            rankValue = "C";
+        }
+
+        else if (percentHit < 85)
+        {
+            rankValue = "B";
+        }
+
+        else if (percentHit < 95)
+        {
+            rankValue = "A";
+        }
+
+        else
+        {
+            rankValue = "S";
+        }
+
+        rankText.text = rankValue;
+
+                    /* old ranking system
+                    string rankValue = "F";
+
+                    if (percentHit > 50)
+                    {
+                        rankValue = "D";
+
+                        if (percentHit > 60)
+                        {
+                            rankValue = "C";
+
+                            if (percentHit > 70)
+                            {
+                                rankValue = "B";
+
+                                if (percentHit > 85)
+                                {
+                                    rankValue = "A";
+
+                                    if (percentHit > 95)
+                                    {
+                                        rankValue = "S";
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    rankText.text = rankValue;*/
+        
+
     }
 }
