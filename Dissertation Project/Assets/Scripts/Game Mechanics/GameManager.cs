@@ -163,7 +163,7 @@ public class GameManager : MonoBehaviour
         //register the note as HIT and update the current score
 
         combo++;
-        comboText.text = "Combo: " + combo.ToString();
+        comboText.text = combo.ToString();
 
         if (combo > maxCombo)
         {
@@ -205,7 +205,7 @@ public class GameManager : MonoBehaviour
         //register the note as MISS and reset multipliers
 
         combo = 0;
-        comboText.text = "Combo: " + combo.ToString();
+        comboText.text = combo.ToString();
         //if missing a note, max combo won't be affected and combo will go back to 0
         missedHits++;
     }
