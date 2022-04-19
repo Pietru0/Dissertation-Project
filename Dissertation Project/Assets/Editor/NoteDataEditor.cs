@@ -35,7 +35,8 @@ public class NoteDataEditor : Editor
                 }
                 else if (note.Trim() == "0010")
                 {
-                    colorToAdd = (NoteData.NoteColor) Random.Range(0, 3);
+                    colorToAdd = NoteData.NoteColor.Red;
+                    //colorToAdd = (NoteData.NoteColor) Random.Range(0, 3);
                 }
 
                 

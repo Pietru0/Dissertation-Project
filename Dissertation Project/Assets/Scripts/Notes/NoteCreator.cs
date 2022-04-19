@@ -22,12 +22,13 @@ public class NoteCreator : MonoBehaviour
 
     private float timer = -5;
     private int noteIndex = 0;
+    public float offset;
 
     void Awake()
     {
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = noteData.songFile;
-        audioSource.PlayDelayed(5.55f);
+        audioSource.PlayDelayed(5f);
 
         lookAhead = (spawnOnX - redTarget.position.x) / travelSpeed;
         nextNote = noteData.GetNote(noteIndex);
@@ -63,7 +64,7 @@ public class NoteCreator : MonoBehaviour
         }
 
         Vector3 pos = target.position;
-        pos.x = spawnOnX;
+        pos.x = spawnOnX - offset;
 
         NoteScroller scroller = Instantiate(noteToSpawn, pos, Quaternion.identity);
         scroller.SetSpeed(travelSpeed);

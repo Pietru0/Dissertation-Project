@@ -51,9 +51,14 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("HappyRock-easy");
     }
 
+    public void HappyRockNM()
+    {
+        SceneManager.LoadScene("HappyRock-normal");
+    }
+
     public void HappyRockHD()
     {
-        Debug.Log("Hard version not available yet!");
+        SceneManager.LoadScene("HappyRock-hard");
     }
 
     public void SecondSong()
