@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
             if(Input.anyKeyDown)
             {
                 startMusic = true;
-                  
+                
                 totalNotes = 
                 FindObjectsOfType<GreenNote>().Length+
                 FindObjectsOfType<BlueNote>().Length+

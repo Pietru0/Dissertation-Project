@@ -16,6 +16,7 @@ public class NoteDataEditor : Editor
             float x = 60f / data.BPM;
 
             float currentTime = 0;
+            int count = 0;
             List<NoteData.NoteInfo> notes = new List<NoteData.NoteInfo>();
 
             string[] allNotes = data.noteSequence.Split('\n');
@@ -36,7 +37,6 @@ public class NoteDataEditor : Editor
                 else if (note.Trim() == "0010")
                 {
                     colorToAdd = NoteData.NoteColor.Red;
-                    //colorToAdd = (NoteData.NoteColor) Random.Range(0, 3);
                 }
 
                 
@@ -45,6 +45,24 @@ public class NoteDataEditor : Editor
                     timeStamp = currentTime
                 });
             }
+
+            //counts the number of lines before a comma is seen
+            //if a comma is seen, reset counter
+            string[] allLines = data.noteSequence.Split('\n');
+            foreach (string line in allLines)
+            {
+                if (line.Trim() ==",")
+                {
+                    Debug.Log("Lines: " + count);
+                    count = 0;
+                }
+
+                else
+                {
+                    count++;
+                }
+            }
+            //the only problem left to solve is to count this during live gameplay
 
             data.notes = notes.ToArray();
         }
