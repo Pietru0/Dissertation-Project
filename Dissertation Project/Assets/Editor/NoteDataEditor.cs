@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEditor;
 
@@ -39,7 +40,6 @@ public class NoteDataEditor : Editor
                     colorToAdd = NoteData.NoteColor.Red;
                 }
 
-                
                 notes.Add(new NoteData.NoteInfo(){
                     color = colorToAdd,
                     timeStamp = currentTime
@@ -62,7 +62,24 @@ public class NoteDataEditor : Editor
                     count++;
                 }
             }
-            //the only problem left to solve is to count this during live gameplay
+
+            string[] beats = "0000\n0000\n0000\n0000".Split('\n');
+            //Debug.Log("Initial Beat Count: "+beats.Length);
+            
+            if (beats.Length == 4)
+            {
+                for (int i=0; i>=4; i++)
+                {
+                    Debug.Log(i);
+                    beats = beats.Concat(beats).ToArray();
+                }
+                //attempt to make a for loop which adds 3 empty beats
+
+                //beats = "0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000".Split('\n');
+                Debug.Log("Beats New Count: "+ beats.Length);
+            }
+
+            
 
             data.notes = notes.ToArray();
         }
