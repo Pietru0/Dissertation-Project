@@ -11,13 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu Scenes/Instructions.unity
     guid: e6a14bfd909a9484b923b82dd3e24083
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu Scenes/Mode Select.unity
     guid: 4cea48c048f0b0d4b91591a04c47bc90
   - enabled: 1
     path: Assets/Scenes/Menu Scenes/Song Selection.unity
     guid: 3603b9924cf15ba498ce653571b3a2c2
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Menu Scenes/Learning.unity
     guid: 772c406de9992e5498b2704663a07ff7
   - enabled: 1

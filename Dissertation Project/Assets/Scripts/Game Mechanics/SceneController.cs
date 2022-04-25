@@ -7,12 +7,8 @@ using UnityEngine.SceneManagement;
 public class SceneController : MonoBehaviour
 {
     public List<GameObject> HappyRockDiff,SecondSongDiff = new List<GameObject>();
-    public void ModeSelectBTN()
-    {
-        SceneManager.LoadScene("Mode Select");
-    }
 
-        public void MenuBTN()
+    public void MenuBTN()
     {
         SceneManager.LoadScene("Menu");
     }
@@ -26,11 +22,6 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("Song Selection");
     }
 
-    public void LearningBTN()
-    {
-        SceneManager.LoadScene("Learning");
-        //not sure if I want to include this yet, but it's here just incase I do
-    }
     public void QuitBTN()
     {
         Application.Quit();
