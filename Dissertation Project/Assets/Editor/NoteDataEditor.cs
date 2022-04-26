@@ -1,6 +1,5 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
-using System.Linq;
 using UnityEngine;
 using UnityEditor;
 
@@ -65,13 +64,13 @@ public class NoteDataEditor : Editor
 
             string[] beats = "0000\n0000\n0000\n0000".Split('\n');
             //Debug.Log("Initial Beat Count: "+beats.Length);
-            
+
             if (beats.Length == 4)
             {
-                for (int i=0; i>=4; i++)
+                for (int i=0; i<3; i++)
                 {
-                    Debug.Log(i);
-                    beats = beats.Concat(beats).ToArray();
+                    //add string to array 3 times
+                    Debug.Log("hello");
                 }
                 //attempt to make a for loop which adds 3 empty beats
 
