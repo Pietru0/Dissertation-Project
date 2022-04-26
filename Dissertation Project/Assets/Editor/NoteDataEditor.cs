@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using System.Linq;
 
 [CustomEditor(typeof(NoteData))]
 public class NoteDataEditor : Editor
@@ -63,23 +64,22 @@ public class NoteDataEditor : Editor
             }
 
             string[] beats = "0000\n0000\n0000\n0000".Split('\n');
-            //Debug.Log("Initial Beat Count: "+beats.Length);
+            List<string> beatList = beats.ToList();
+            //changed to list in order to be able to add items into it
 
             if (beats.Length == 4)
             {
-                for (int i=0; i<3; i++)
+                for (int i=0;i<(beats.Length*3); i++)
                 {
-                    //add string to array 3 times
-                    Debug.Log("hello");
+                    //beats.Length should be 4; 4*3 = 12
+                    //add new line and '0000' 12 times
+                    beatList.Add("\n0000");
+                    //which should total to 16
                 }
-                //attempt to make a for loop which adds 3 empty beats
-
                 //beats = "0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000".Split('\n');
-                Debug.Log("Beats New Count: "+ beats.Length);
+                Debug.Log("List Count (4): "+ beatList.Count);
+                //number of "0000" in list
             }
-
-            
-
             data.notes = notes.ToArray();
         }
     }
