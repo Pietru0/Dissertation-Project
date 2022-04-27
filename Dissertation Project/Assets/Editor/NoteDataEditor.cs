@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
-using System.Linq;
 
 [CustomEditor(typeof(NoteData))]
 public class NoteDataEditor : Editor
@@ -14,10 +13,24 @@ public class NoteDataEditor : Editor
         NoteData data = target as NoteData;
         if (GUILayout.Button("Parse"))
         {
+            string line = data.noteSequence;
+            List<string> finalBeats = new List<string>();
+            string[] sections = line.Split('\n');
+
+            foreach (string section in sections)
+            {
+                List<string> beats = GetBeats(section);
+                finalBeats.AddRange(beats);
+            }
+
+            foreach (string beat in finalBeats)
+            {
+                Debug.Log(beat);
+            }
+
             float x = 60f / data.BPM;
 
             float currentTime = 0;
-            int count = 0;
             List<NoteData.NoteInfo> notes = new List<NoteData.NoteInfo>();
 
             string[] allNotes = data.noteSequence.Split('\n');
@@ -46,41 +59,23 @@ public class NoteDataEditor : Editor
                 });
             }
 
-            //counts the number of lines before a comma is seen
-            //if a comma is seen, reset counter
-            string[] allLines = data.noteSequence.Split('\n');
-            foreach (string line in allLines)
-            {
-                if (line.Trim() ==",")
-                {
-                    Debug.Log("Lines: " + count);
-                    count = 0;
-                }
-
-                else
-                {
-                    count++;
-                }
-            }
-
-            string[] beats = "0000\n0000\n0000\n0000".Split('\n');
-            List<string> beatList = beats.ToList();
-            //changed to list in order to be able to add items into it
-
-            if (beats.Length == 4)
-            {
-                for (int i=0;i<(beats.Length*3); i++)
-                {
-                    //beats.Length should be 4; 4*3 = 12
-                    //add new line and '0000' 12 times
-                    beatList.Add("\n0000");
-                    //which should total to 16
-                }
-                //beats = "0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000\n0000".Split('\n');
-                Debug.Log("List Count (4): "+ beatList.Count);
-                //number of "0000" in list
-            }
             data.notes = notes.ToArray();
         }
     }
+        public static List<string> GetBeats(string beats)
+        {
+            List<string> beatsList = new List<string>(beats.Split('-'));
+            //changed to list in order to be able to add items into it
+
+            while (beatsList.Count < 16)
+            {
+                int beatsCount = beatsList.Count;
+                for (int i=0; i<beatsCount; i++)
+                {
+                    beatsList.Insert(beatsList.Count - (i * 2), "0000");
+                }
+            }
+
+            return beatsList;
+        }
 }
