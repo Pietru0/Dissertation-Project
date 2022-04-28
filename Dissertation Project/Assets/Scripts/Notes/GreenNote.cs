@@ -28,7 +28,6 @@ public class GreenNote : MonoBehaviour
             if (canPress)
             {
                 gameObject.SetActive(false);
-                //< = less || > = greater
 
                 if (transform.position.x > -5.96 || transform.position.x < -6.54)
                 {
@@ -43,10 +42,6 @@ public class GreenNote : MonoBehaviour
                     GameManager.instance.PerfectHit();
                     Instantiate(perfectJudge, perfectJudge.transform.position, perfectJudge.transform.rotation);
                 }
-
-                //the best possible coordinate to get a perfect is at X = -6.65
-                //if the note is hit at X > -6.45 or X < -6.85 it will register as good
-                //if hte note is hit between X -6.46 to X -6.84 it will register as a perfect
             }
         }
     }

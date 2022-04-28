@@ -45,6 +45,11 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float perfectHits;
     [SerializeField] private float missedHits;
 
+[Header("Pause")]
+    public GameObject pauseWindow;
+    [SerializeField] private bool isPaused = false;
+
+[Header("Results")]
     public GameObject resultsWindow;
     public Text percentage, goodText, perfectText, missText, rankText, finalScoreText, maxComboText;
 
@@ -81,6 +86,8 @@ public class GameManager : MonoBehaviour
             {
                 StartCoroutine(openResultsWindow());
             }
+
+        PauseGame();
     }
 
     public void HitNote()
@@ -155,93 +162,104 @@ public class GameManager : MonoBehaviour
         missedHits++;
     }
 
+    public void PauseGame()
+    {
+        if (Input.GetKeyDown(KeyCode.P))
+        {
+            isPaused = true;
+
+            if (noteCreation.audioSource.isPlaying && isPaused == true)
+            {
+                noteCreation.audioSource.Pause();
+            }
+            pauseWindow.SetActive(true);
+            Time.timeScale = 0;
+        } 
+    }
+
+    public void UnpauseGame()
+    {
+        isPaused = false;
+        noteCreation.audioSource.Play();
+        pauseWindow.SetActive(false);
+        Time.timeScale = 1;
+    }
+
+    public void exitLevel()
+    {
+        SceneManager.LoadScene("Song Selection");
+        perfectHits = 0;
+        goodHits = 0;
+        missedHits = 0;
+        noteCreation.audioSource.Stop();
+    }
+
     IEnumerator openResultsWindow()
     {
         while (noteCreation.audioSource.isPlaying)
         {
             yield return null;
         }
-        yield return new WaitForSeconds(1f);
-        resultsWindow.SetActive(true);
-        comboText.gameObject.SetActive(false);      
 
-        songName.text = "Happy Rock";
-        authorName.text = "Benjamin Tissot";
-
-        goodText.text = goodHits.ToString();
-        perfectText.text = perfectHits.ToString();
-        missText.text = missedHits.ToString();
-        finalScoreText.text = scoreTotal.ToString();
-        maxComboText.text = maxCombo.ToString();
-        
-
-        float totalHits = (perfectHits + (goodHits/1.5f));
-        //good hits are divided by 1.5 so that each good counts as 1.5 times less percentage
-        //than a perfect hit would
-        float percentHit = (totalHits / totalNotes) * 100f;
-
-        percentage.text = percentHit.ToString("F2") + "%";
-
-        //ranking system
-
-        string rankValue = "F";
-
-        if (percentHit < 60)
+        if (isPaused == false)
         {
-            rankValue = "D";
+            yield return new WaitForSeconds(1f);
+            resultsWindow.SetActive(true);
+            comboText.gameObject.SetActive(false);      
+
+            songName.text = "Happy Rock";
+            authorName.text = "Benjamin Tissot";
+
+            goodText.text = goodHits.ToString();
+            perfectText.text = perfectHits.ToString();
+            missText.text = missedHits.ToString();
+            finalScoreText.text = scoreTotal.ToString();
+            maxComboText.text = maxCombo.ToString();
+            
+
+            float totalHits = (perfectHits + (goodHits/1.5f));
+            //good hits are divided by 1.5 so that each good counts as 1.5 times less percentage
+            //than a perfect hit would
+            float percentHit = (totalHits / totalNotes) * 100f;
+
+            percentage.text = percentHit.ToString("F2") + "%";
+
+            //ranking system
+
+            string rankValue = "F";
+            rankText.color = new Color32(161,21,171,255);
+
+            if (percentHit < 60)
+            {
+                rankValue = "D";
+                rankText.color = new Color32(158,16,18,255);
+            }
+
+            else if (percentHit < 70)
+            {
+                rankValue = "C";
+                rankText.color = new Color32(177,92,242,255);
+            }
+
+            else if (percentHit < 85)
+            {
+                rankValue = "B";
+                rankText.color = new Color32(20,183,252,255);
+            }
+
+            else if (percentHit < 95)
+            {
+                rankValue = "A";
+                rankText.color = new Color32(101,252,20,255);
+            }
+
+            else
+            {
+                rankValue = "S";
+                rankText.color = new Color32(254,215,20,255);
+            }
+
+            rankText.text = rankValue;
         }
-
-        else if (percentHit < 70)
-        {
-            rankValue = "C";
-        }
-
-        else if (percentHit < 85)
-        {
-            rankValue = "B";
-        }
-
-        else if (percentHit < 95)
-        {
-            rankValue = "A";
-        }
-
-        else
-        {
-            rankValue = "S";
-        }
-
-        rankText.text = rankValue;
-
-                    /* old ranking system
-                    string rankValue = "F";
-
-                    if (percentHit > 50)
-                    {
-                        rankValue = "D";
-
-                        if (percentHit > 60)
-                        {
-                            rankValue = "C";
-
-                            if (percentHit > 70)
-                            {
-                                rankValue = "B";
-
-                                if (percentHit > 85)
-                                {
-                                    rankValue = "A";
-
-                                    if (percentHit > 95)
-                                    {
-                                        rankValue = "S";
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    rankText.text = rankValue;*/
-        
-
     }
 }

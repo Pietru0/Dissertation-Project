@@ -28,13 +28,6 @@ public class BlueNote : MonoBehaviour
             if (canPress)
             {
                 gameObject.SetActive(false);
-                //GameManager.instance.HitNote();
-
-                /*if(transform.position.y < -6.3 || transform.position.y > -7)
-                {
-                    Debug.Log("OK Hit");
-                    GameManager.instance.OKHit();
-                }*/
 
                 if (transform.position.x > -5.96 || transform.position.x < -6.54)
                 {

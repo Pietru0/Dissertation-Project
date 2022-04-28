@@ -28,7 +28,6 @@ public class RedNote : MonoBehaviour
             if (canPress)
             {
                 gameObject.SetActive(false);
-                //GameManager.instance.HitNote();
 
                 if (transform.position.x > -5.96 || transform.position.x < -6.54)
                 {
