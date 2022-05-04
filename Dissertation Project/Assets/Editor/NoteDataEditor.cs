@@ -33,7 +33,7 @@ public class NoteDataEditor : Editor
             }
             //for each beat, print the value
 
-            float x = (60f / data.BPM)/1.6f;
+            float x = (60f / data.BPM)/4f;
 
             float currentTime = 0;
             List<NoteData.NoteInfo> notes = new List<NoteData.NoteInfo>();
