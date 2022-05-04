@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEditor;
+using System.Linq;
 
 [CustomEditor(typeof(NoteData))]
 public class NoteDataEditor : Editor
@@ -15,39 +16,48 @@ public class NoteDataEditor : Editor
         {
             string line = data.noteSequence;
             List<string> finalBeats = new List<string>();
-            string[] sections = line.Split('\n');
+            string[] sections = line.Split(',');
+            //section is the new line after each beat
 
             foreach (string section in sections)
             {
                 List<string> beats = GetBeats(section);
                 finalBeats.AddRange(beats);
             }
+            //for each section, add a beat
 
-            foreach (string beat in finalBeats)
+            data.notesPreview = "";
+            for (int i = 0; i < finalBeats.Count; i++)
             {
-                Debug.Log(beat);
+                data.notesPreview += $"{i + 1} - {finalBeats[i]}\n";
             }
+            //for each beat, print the value
 
-            float x = 60f / data.BPM;
+            float x = (60f / data.BPM)/1.6f;
 
             float currentTime = 0;
             List<NoteData.NoteInfo> notes = new List<NoteData.NoteInfo>();
 
-            string[] allNotes = data.noteSequence.Split('\n');
-            foreach (string note in allNotes)
+            foreach (string note in finalBeats)
             {
-                if (note.Trim() == ",") continue;
                 currentTime += x;
                 if (note.Trim() == "0000") continue;
+                //if note is 0000, don't add a note
                 NoteData.NoteColor colorToAdd = NoteData.NoteColor.Red;
+                
+                //if note is 1000, add a green note
                 if (note.Trim() == "1000")
                 {
                     colorToAdd = NoteData.NoteColor.Green;
                 }
+
+                //if note is 1000, add a blue note
                 else if (note.Trim() == "0100")
                 {
                     colorToAdd = NoteData.NoteColor.Blue;
                 }
+
+                //if note is 1000, add a red note
                 else if (note.Trim() == "0010")
                 {
                     colorToAdd = NoteData.NoteColor.Red;
@@ -64,7 +74,7 @@ public class NoteDataEditor : Editor
     }
         public static List<string> GetBeats(string beats)
         {
-            List<string> beatsList = new List<string>(beats.Split('-'));
+            List<string> beatsList = new List<string>(beats.Trim(new char[]{ '\n' }).Split('\n'));
             //changed to list in order to be able to add items into it
 
             while (beatsList.Count < 16)

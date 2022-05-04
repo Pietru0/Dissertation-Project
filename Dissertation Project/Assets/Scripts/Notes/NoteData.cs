@@ -29,6 +29,10 @@ public class NoteData : ScriptableObject
     [TextArea(3, 10)]
     public string noteSequence;
 
+
+    [TextArea(3, 10)]
+    public string notesPreview;
+
     public NoteInfo[] notes;
 
     public int NoteCount => notes.Length;
