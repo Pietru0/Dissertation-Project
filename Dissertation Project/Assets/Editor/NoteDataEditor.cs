@@ -14,7 +14,7 @@ public class NoteDataEditor : Editor
         NoteData data = target as NoteData;
         if (GUILayout.Button("Parse"))
         {
-            string line = data.noteSequence;
+            string line = data.noteSequence.Replace(@"\r\n|\r|\n", "\n");
             List<string> finalBeats = new List<string>();
             string[] sections = line.Split(',');
             //section is the new line after each beat
