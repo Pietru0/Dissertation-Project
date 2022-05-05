@@ -40,7 +40,9 @@ public class NoteDataEditor : Editor
 
             foreach (string note in finalBeats)
             {
+                if (note.Trim() == "") continue;
                 currentTime += x;
+
                 if (note.Trim() == "0000") continue;
                 //if note is 0000, don't add a note
                 NoteData.NoteColor colorToAdd = NoteData.NoteColor.Red;
@@ -48,13 +50,13 @@ public class NoteDataEditor : Editor
                 //if note is 1000, add a green note
                 if (note.Trim() == "1000")
                 {
-                    colorToAdd = NoteData.NoteColor.Green;
+                    colorToAdd = NoteData.NoteColor.Blue;
                 }
 
                 //if note is 1000, add a blue note
                 else if (note.Trim() == "0100")
                 {
-                    colorToAdd = NoteData.NoteColor.Blue;
+                    colorToAdd = NoteData.NoteColor.Green;
                 }
 
                 //if note is 1000, add a red note
