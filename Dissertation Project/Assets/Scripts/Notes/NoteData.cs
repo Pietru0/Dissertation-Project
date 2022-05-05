@@ -30,7 +30,7 @@ public class NoteData : ScriptableObject
     public string noteSequence;
 
 
-    [TextArea(3, 10)]
+    [TextArea(3, 30)]
     public string notesPreview;
 
     public NoteInfo[] notes;

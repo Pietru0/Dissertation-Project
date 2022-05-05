@@ -1022,8 +1022,8 @@ MonoBehaviour:
   blueTarget: {fileID: 418518125962825101}
   spawnOnX: 15
   travelSpeed: 10
-  noteData: {fileID: 11400000, guid: c48f68fc0511c2341b91522f1daa671b, type: 2}
-  offset: 2.8
+  noteData: {fileID: 11400000, guid: 2d73504a822b71641b14ee624adaee69, type: 2}
+  offset: -1
 --- !u!4 &642210234
 Transform:
   m_ObjectHideFlags: 0
@@ -3349,7 +3349,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 887fc6efc209949478f7fc2dc37f42ff, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0fdfb18a15d711349a4a3b110b692eec, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1

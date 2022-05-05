@@ -16,6 +16,7 @@ MonoBehaviour:
   songFile: {fileID: 8300000, guid: 887fc6efc209949478f7fc2dc37f42ff, type: 3}
   BPM: 180.04
   noteSequence: 
+  notesPreview: 
   notes:
   - timeStamp: 0.33325928
     color: 0
