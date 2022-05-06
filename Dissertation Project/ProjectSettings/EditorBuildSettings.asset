@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Song Scenes/HappyRock/Punky-easy.unity
     guid: cd12cd36ee3df80468f91a97d119b710
+  - enabled: 1
+    path: Assets/Scenes/Song Scenes/HappyRock/Punky-normal.unity
+    guid: 90cd2e5fa8c2aa54ab6717725ad19647
   m_configObjects: {}

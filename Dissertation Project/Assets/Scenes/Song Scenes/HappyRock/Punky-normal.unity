@@ -1022,8 +1022,8 @@ MonoBehaviour:
   blueTarget: {fileID: 418518125962825101}
   spawnOnX: 15
   travelSpeed: 10
-  noteData: {fileID: 11400000, guid: 2d73504a822b71641b14ee624adaee69, type: 2}
-  offset: -4.5
+  noteData: {fileID: 11400000, guid: 4196e02c404bfc446b6199e3963bfded, type: 2}
+  offset: 6.5
 --- !u!4 &642210234
 Transform:
   m_ObjectHideFlags: 0

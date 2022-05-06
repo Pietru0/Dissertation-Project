@@ -66,4 +66,9 @@ public class SceneController : MonoBehaviour
     {
         SceneManager.LoadScene("Punky-easy");
     }
+
+    public void PunkyNM()
+    {
+        SceneManager.LoadScene("Punky-normal");
+    }
 }

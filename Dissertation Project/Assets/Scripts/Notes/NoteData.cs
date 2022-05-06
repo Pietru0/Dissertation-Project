@@ -26,7 +26,7 @@ public class NoteData : ScriptableObject
     [Header("Setup")]
     public float BPM;
 
-    [TextArea(3, 10)]
+    [TextArea(3, 50)]
     public string noteSequence;
 
 
