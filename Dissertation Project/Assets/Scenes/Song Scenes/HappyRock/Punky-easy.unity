@@ -1023,7 +1023,7 @@ MonoBehaviour:
   spawnOnX: 15
   travelSpeed: 10
   noteData: {fileID: 11400000, guid: 2d73504a822b71641b14ee624adaee69, type: 2}
-  offset: -2.7
+  offset: -4
 --- !u!4 &642210234
 Transform:
   m_ObjectHideFlags: 0
@@ -3609,9 +3609,9 @@ MonoBehaviour:
   multiplierText: {fileID: 1654816630}
   currentMultiplier: 1
   multiplierTracker: 0
-  multipliers: 0a0000001900000032000000
-  songName: {fileID: 1102981974}
-  authorName: {fileID: 88811722}
+  multipliers: 1e000000320000004b000000
+  songName: Punky
+  authorName: Benjamin Tissot
   totalNotes: 0
   goodHits: 0
   perfectHits: 0
@@ -3619,6 +3619,8 @@ MonoBehaviour:
   pauseWindow: {fileID: 1926686593}
   isPaused: 0
   resultsWindow: {fileID: 2143955737}
+  songNameR: {fileID: 1102981974}
+  authorNameR: {fileID: 88811722}
   percentage: {fileID: 2002445077}
   goodText: {fileID: 1930403379}
   perfectText: {fileID: 758515254}
@@ -3674,7 +3676,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -847.6, y: 342}
+  m_AnchoredPosition: {x: -804, y: 342}
   m_SizeDelta: {x: 276.64954, y: 102.135895}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &2002445076
@@ -3711,7 +3713,7 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 4
     m_MaxSize: 72
-    m_Alignment: 1
+    m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0

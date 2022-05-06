@@ -61,4 +61,9 @@ public class SceneController : MonoBehaviour
             HappyRockDiff[i].SetActive(false);
         }
     }
+
+    public void PunkyEZ()
+    {
+        SceneManager.LoadScene("Punky-easy");
+    }
 }

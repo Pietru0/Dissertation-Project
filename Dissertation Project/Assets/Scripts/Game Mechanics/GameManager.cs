@@ -38,8 +38,8 @@ public class GameManager : MonoBehaviour
     public int[] multipliers;
 
 [Header("Results")]
-    [SerializeField] private Text songName;
-    [SerializeField] private Text authorName;
+    [SerializeField] private string songName;
+    [SerializeField] private string authorName;
     public float totalNotes;
     [SerializeField] private float goodHits;
     [SerializeField] private float perfectHits;
@@ -49,9 +49,9 @@ public class GameManager : MonoBehaviour
     public GameObject pauseWindow;
     [SerializeField] private bool isPaused = false;
 
-[Header("Results")]
+[Header("Results Window")]
     public GameObject resultsWindow;
-    public Text percentage, goodText, perfectText, missText, rankText, finalScoreText, maxComboText;
+    public Text songNameR, authorNameR, percentage, goodText, perfectText, missText, rankText, finalScoreText, maxComboText;
 
     // Start is called before the first frame update
     void Start()
@@ -207,8 +207,8 @@ public class GameManager : MonoBehaviour
             resultsWindow.SetActive(true);
             comboText.gameObject.SetActive(false);      
 
-            songName.text = "Happy Rock"; //change to song name
-            authorName.text = "Benjamin Tissot"; //change to song author
+            songNameR.text = songName;
+            authorNameR.text = authorName; 
 
             goodText.text = goodHits.ToString();
             perfectText.text = perfectHits.ToString();
