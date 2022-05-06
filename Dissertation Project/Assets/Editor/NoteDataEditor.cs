@@ -16,7 +16,7 @@ public class NoteDataEditor : Editor
         {
             string line = data.noteSequence.Replace(@"\r\n|\r|\n", "\n");
             List<string> finalBeats = new List<string>();
-            string[] sections = line.Split(',');
+            string[] sections = line.Split(new char[] {','});
             //section is the new line after each beat
 
             foreach (string section in sections)

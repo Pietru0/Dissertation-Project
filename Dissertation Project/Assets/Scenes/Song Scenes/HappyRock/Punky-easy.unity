@@ -1023,7 +1023,7 @@ MonoBehaviour:
   spawnOnX: 15
   travelSpeed: 10
   noteData: {fileID: 11400000, guid: 2d73504a822b71641b14ee624adaee69, type: 2}
-  offset: -1
+  offset: -2.7
 --- !u!4 &642210234
 Transform:
   m_ObjectHideFlags: 0

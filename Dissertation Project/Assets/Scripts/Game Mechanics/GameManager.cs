@@ -207,8 +207,8 @@ public class GameManager : MonoBehaviour
             resultsWindow.SetActive(true);
             comboText.gameObject.SetActive(false);      
 
-            songName.text = "Happy Rock";
-            authorName.text = "Benjamin Tissot";
+            songName.text = "Happy Rock"; //change to song name
+            authorName.text = "Benjamin Tissot"; //change to song author
 
             goodText.text = goodHits.ToString();
             perfectText.text = perfectHits.ToString();
