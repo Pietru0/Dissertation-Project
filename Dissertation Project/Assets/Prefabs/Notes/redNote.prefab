@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canPress: 0
-  keyPress: 104
+  keyPress: 13
   goodJudge: {fileID: 5640979890498766487, guid: 95b4d3dbeec2cba4e9e196d01e7fcd2e,
     type: 3}
   perfectJudge: {fileID: 2559947270177990656, guid: 50f309f53bfecfc4aa447b6d2ab9b963,
@@ -142,8 +142,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9acf20bafe38c9f4f86f4fea91b33ecb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BPM: 180.04
-  songStarted: 1
-  songTimer: 0
-  startPos: 0
-  markerPos: {fileID: 0}

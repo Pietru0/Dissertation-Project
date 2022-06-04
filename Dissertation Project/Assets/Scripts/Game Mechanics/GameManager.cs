@@ -62,6 +62,7 @@ public class GameManager : MonoBehaviour
         
         scoreText.text = "Score: 0";
         currentMultiplier = 1;
+        comboText.text = "";
     }
 
     // Update is called once per frame
@@ -113,7 +114,6 @@ public class GameManager : MonoBehaviour
         //scoreTotal += scorePerNote * currentMultiplier;
         scoreText.text = "Score: " + scoreTotal;
         //register the note as HIT and update the current score
-
         combo++;
         comboText.text = combo.ToString();
 

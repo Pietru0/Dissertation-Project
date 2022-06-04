@@ -22,6 +22,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("Song Selection");
     }
 
+    public void CreditsBTN()
+    {
+        SceneManager.LoadScene("Credits");
+    }
+
     public void QuitBTN()
     {
         Application.Quit();
