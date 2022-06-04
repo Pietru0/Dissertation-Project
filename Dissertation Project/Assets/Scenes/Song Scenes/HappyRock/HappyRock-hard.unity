@@ -1019,7 +1019,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 1.4, y: 0.5}
   m_EdgeRadius: 0
 --- !u!1 &812888291
 GameObject:
@@ -1361,7 +1361,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 1.4, y: 0.5}
   m_EdgeRadius: 0
 --- !u!1 &1098328794
 GameObject:
@@ -1663,7 +1663,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 0.5}
+  m_Size: {x: 1.4, y: 0.5}
   m_EdgeRadius: 0
 --- !u!1 &1280026336
 GameObject:
@@ -1817,7 +1817,7 @@ SpriteRenderer:
   m_Size: {x: 19.2, y: 10.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1375552167
@@ -3027,13 +3027,17 @@ MonoBehaviour:
   currentMultiplier: 1
   multiplierTracker: 0
   multipliers: 0a0000001900000032000000
-  songName: {fileID: 1102981974}
-  authorName: {fileID: 88811722}
+  songName: 
+  authorName: 
   totalNotes: 0
   goodHits: 0
   perfectHits: 0
   missedHits: 0
+  pauseWindow: {fileID: 0}
+  isPaused: 0
   resultsWindow: {fileID: 2143955737}
+  songNameR: {fileID: 0}
+  authorNameR: {fileID: 0}
   percentage: {fileID: 2002445077}
   goodText: {fileID: 1930403379}
   perfectText: {fileID: 758515254}

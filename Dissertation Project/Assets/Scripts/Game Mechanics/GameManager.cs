@@ -179,10 +179,13 @@ public class GameManager : MonoBehaviour
 
     public void UnpauseGame()
     {
-        isPaused = false;
-        noteCreation.audioSource.Play();
-        pauseWindow.SetActive(false);
-        Time.timeScale = 1;
+        if (isPaused)
+        {
+            isPaused = false;
+            noteCreation.audioSource.Play();
+            pauseWindow.SetActive(false);
+            Time.timeScale = 1;
+        }
     }
 
     public void exitLevel()
