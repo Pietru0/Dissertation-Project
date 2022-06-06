@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class SceneController : MonoBehaviour
 {
-    public List<GameObject> HappyRockDiff,SecondSongDiff = new List<GameObject>();
+    public List<GameObject> HappyRockDiff,PunkyDiff = new List<GameObject>();
 
     public void MenuBTN()
     {
@@ -39,7 +39,7 @@ public class SceneController : MonoBehaviour
         {
             HappyRockDiff[i].SetActive(true);
             //only display difficulty for this song
-            SecondSongDiff[i].SetActive(false);
+            PunkyDiff[i].SetActive(false);
         }
     }
     public void HappyRockEZ()
@@ -57,11 +57,11 @@ public class SceneController : MonoBehaviour
         SceneManager.LoadScene("HappyRock-hard");
     }
 
-    public void SecondSong()
+    public void Punky()
     {
-        for (int i = 0; i < SecondSongDiff.Count; i++)
+        for (int i = 0; i < PunkyDiff.Count; i++)
         {
-            SecondSongDiff[i].SetActive(true);
+            PunkyDiff[i].SetActive(true);
             //only display difficulty for this song
             HappyRockDiff[i].SetActive(false);
         }
@@ -75,5 +75,10 @@ public class SceneController : MonoBehaviour
     public void PunkyNM()
     {
         SceneManager.LoadScene("Punky-normal");
+    }
+
+    public void PunkyHD()
+    {
+        SceneManager.LoadScene("Punky-hard");
     }
 }

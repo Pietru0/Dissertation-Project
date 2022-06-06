@@ -204,7 +204,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 880785526}
-        m_MethodName: HappyRockHD
+        m_MethodName: PunkyHD
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -544,7 +544,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 880785526}
-        m_MethodName: SecondSong
+        m_MethodName: Punky
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1086,7 +1086,7 @@ MonoBehaviour:
   - {fileID: 1701572354}
   - {fileID: 244817530}
   - {fileID: 1492207169}
-  SecondSongDiff:
+  PunkyDiff:
   - {fileID: 2135846846}
   - {fileID: 1397946862}
   - {fileID: 191611335}

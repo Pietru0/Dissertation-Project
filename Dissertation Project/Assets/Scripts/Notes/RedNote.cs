@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -29,7 +29,7 @@ public class RedNote : MonoBehaviour
             {
                 gameObject.SetActive(false);
 
-                if (transform.position.x > -5.96 || transform.position.x < -6.54)
+                if (transform.position.x > -5.85 || transform.position.x < -6.6)
                 {
                     Debug.Log("Good Hit");
                     GameManager.instance.GoodHit();

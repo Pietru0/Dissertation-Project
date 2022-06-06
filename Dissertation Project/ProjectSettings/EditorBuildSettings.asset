@@ -21,21 +21,18 @@ EditorBuildSettings:
     path: Assets/Scenes/Song Scenes/HappyRock/HappyRock-normal.unity
     guid: f74413e0fc9def142b90975e4f7d9a3c
   - enabled: 1
+    path: Assets/Scenes/Song Scenes/HappyRock/HappyRock-hard.unity
+    guid: b0aff7719340f324da780fae12a2f575
+  - enabled: 1
     path: Assets/Scenes/Song Scenes/Punky/Punky-easy.unity
     guid: cd12cd36ee3df80468f91a97d119b710
   - enabled: 1
     path: Assets/Scenes/Song Scenes/Punky/Punky-normal.unity
     guid: 90cd2e5fa8c2aa54ab6717725ad19647
   - enabled: 1
+    path: Assets/Scenes/Song Scenes/Punky/Punky-hard.unity
+    guid: a597cd2d35414d34f8ea4da47a41339f
+  - enabled: 1
     path: Assets/Scenes/Menu Scenes/Credits.unity
     guid: 1bf40ed8448ee534495a90834d5342ae
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
   m_configObjects: {}
