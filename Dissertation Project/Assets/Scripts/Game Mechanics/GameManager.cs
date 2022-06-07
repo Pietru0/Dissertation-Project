@@ -208,7 +208,8 @@ public class GameManager : MonoBehaviour
         {
             yield return new WaitForSeconds(1f);
             resultsWindow.SetActive(true);
-            comboText.gameObject.SetActive(false);      
+            comboText.gameObject.SetActive(false);
+            multiplierText.text = "";   
 
             songNameR.text = songName;
             authorNameR.text = authorName; 

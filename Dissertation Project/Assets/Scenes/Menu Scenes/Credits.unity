@@ -155,7 +155,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68, y: -134}
+  m_AnchoredPosition: {x: -68, y: -98}
   m_SizeDelta: {x: 1434.207, y: 179.92612}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &174841447
@@ -190,7 +190,10 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Peter Pantelic on unity Engine 2019.4.14f1
+  m_Text: 'Peter Pantelic on unity Engine 2019.4.14f1
+
+    LemonMilk Font by Marsnev
+    on dafont.com'
 --- !u!222 &174841448
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -363,7 +366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -68, y: -107}
+  m_AnchoredPosition: {x: -68, y: -71}
   m_SizeDelta: {x: 1434.207, y: 179.92612}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &341257150

@@ -1023,7 +1023,7 @@ MonoBehaviour:
   spawnOnX: 15
   travelSpeed: 10
   noteData: {fileID: 11400000, guid: 2d73504a822b71641b14ee624adaee69, type: 2}
-  offset: -5.1
+  offset: -4.8
 --- !u!4 &642210234
 Transform:
   m_ObjectHideFlags: 0
@@ -3609,7 +3609,7 @@ MonoBehaviour:
   multiplierText: {fileID: 1654816630}
   currentMultiplier: 1
   multiplierTracker: 0
-  multipliers: 1e000000320000004b000000
+  multipliers: 19000000320000004b000000
   songName: Punky
   authorName: Benjamin Tissot
   totalNotes: 0

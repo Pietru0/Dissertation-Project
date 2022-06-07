@@ -997,7 +997,7 @@ MonoBehaviour:
   spawnOnX: 15
   travelSpeed: 10
   noteData: {fileID: 11400000, guid: 97f9566f4a2b1c54fae30149b362d93c, type: 2}
-  offset: -1
+  offset: -1.5
 --- !u!4 &642210234
 Transform:
   m_ObjectHideFlags: 0
@@ -3492,7 +3492,7 @@ MonoBehaviour:
   multiplierText: {fileID: 1654816630}
   currentMultiplier: 1
   multiplierTracker: 0
-  multipliers: 0a0000001900000032000000
+  multipliers: 320000006400000096000000
   songName: Happy Rock
   authorName: Benjamin Tissot
   totalNotes: 0
